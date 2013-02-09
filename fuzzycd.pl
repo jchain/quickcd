@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+# Copyright 2009-2013 John Chain, all rights reserved.
+# This script is free software. It may be copied or modified according
+# to the same terms as Perl itself.
 
 # use strict;
 # use warnings;
