@@ -38,7 +38,7 @@ The differences:
 1. When your cd path contains capital letter quickcd will match case sensitively. This way can
    result in less matches. fuzzycd seems to do case insensitive match all the time.
 
-2. *quickcd prints out a well-formatted candidates*. It fits the width of the terminal windows and
+2. _quickcd prints out a well-formatted candidates_. It fits the width of the terminal windows and
    the columns are aligned neatly. I worked really hard on making this right. fuzzycd candidates
    are not always aligned.
 
