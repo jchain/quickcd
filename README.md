@@ -53,16 +53,16 @@ Setup
 This following instruction are shamelessly copied from fuzzycd's README.
 
 Modify your ~/.profile (or ~/.bashrc, depending your operating system) and add the following lines.
-This assumes you put fuzzycd in the ~/scripts/ directory.
+This assumes you put quickcd in the ~/scripts/ directory.
 
-    export PATH=~/scripts/fuzzycd/:$PATH
-    source ~/scripts/fuzzycd/fuzzycd_bash_wrapper.sh
+    export PATH=~/scripts/quickcd/:$PATH
+    source ~/scripts/quickcd/quickcd_bash_wrapper.sh
 
 This will effectively wrap the builtin bash cd command with the fuzzy cd command. Enjoy!
 
 *Note*: If you have any other shell plugins which try to redefine the "cd" function (e.g.
 [rvm](https://rvm.beginrescueend.com/rvm) does this), make sure that the
-`source ... fuzzycd_bash_wrapper.sh` line comes last in your bash profile. fuzzycd plays nicely with
+`source ... quickcd_bash_wrapper.sh` line comes last in your bash profile. quickcd plays nicely with
 other bash modification plugins, but it should be loaded last.
 
 
