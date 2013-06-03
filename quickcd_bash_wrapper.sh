@@ -8,7 +8,7 @@ if [ x`type -t cd` == "xfunction" ]; then
   eval $(type cd | grep -v 'cd is a function' | sed 's/^cd/original_cd/' | sed 's/^}/;}/' )
 else
   # Otherwise, we just define "__cd" to directly call the builtin.
-  eval "original_cd() { builtin cd \$*; }"
+  eval "original_cd() { builtin cd \"\$1\"; }"
 fi
 
 cd() {
